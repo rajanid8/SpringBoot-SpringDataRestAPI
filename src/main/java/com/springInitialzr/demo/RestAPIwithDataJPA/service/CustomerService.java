@@ -1,7 +1,6 @@
 package com.springInitialzr.demo.RestAPIwithDataJPA.service;
 
-import com.springInitialzr.demo.RestAPIwithDataJPA.Repository.CustomerRepository;
-import com.springInitialzr.demo.RestAPIwithDataJPA.model.Bank;
+import com.springInitialzr.demo.RestAPIwithDataJPA.dao.CustomerRepository;
 import com.springInitialzr.demo.RestAPIwithDataJPA.model.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

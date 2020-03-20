@@ -1,12 +1,11 @@
 package com.springInitialzr.demo.RestAPIwithDataJPA.service;
 
-import com.springInitialzr.demo.RestAPIwithDataJPA.Repository.BankRepository;
+import com.springInitialzr.demo.RestAPIwithDataJPA.dao.BankRepository;
 import com.springInitialzr.demo.RestAPIwithDataJPA.model.Bank;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
